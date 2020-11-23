@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon End to End Suite" duration-ms="54932" started-at="2020-08-13T08:26:23Z" finished-at="2020-08-13T08:27:18Z">
+    <groups>
+    </groups>
+    <test name="Place An order using real device" duration-ms="42642" started-at="2020-08-13T08:26:23Z" finished-at="2020-08-13T08:27:05Z">
+      <class name="testCases.AmazonBuyProduct">
+        <test-method status="PASS" signature="getDriverInstance(java.lang.String)[pri:0, instance:testCases.AmazonBuyProduct@771158fb]" name="getDriverInstance" is-config="true" duration-ms="15894" started-at="2020-08-13T08:26:23Z" finished-at="2020-08-13T08:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[e72c4507 Android 10 8202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method status="PASS" signature="testLoginInvalidConditionTest()[pri:0, instance:testCases.AmazonBuyProduct@771158fb]" name="testLoginInvalidConditionTest" duration-ms="25478" started-at="2020-08-13T08:26:39Z" description="Verify Amazon login for invalid credential" finished-at="2020-08-13T08:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidConditionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.AmazonBuyProduct@771158fb]" name="tearDown" is-config="true" duration-ms="7" started-at="2020-08-13T08:27:05Z" finished-at="2020-08-13T08:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginInvalidConditionTest status=SUCCESS method=AmazonBuyProduct.testLoginInvalidConditionTest()[pri:0, instance:testCases.AmazonBuyProduct@771158fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AmazonBuyProduct -->
+    </test> <!-- Place An order using real device -->
+    <test name="Place An order using emulator" duration-ms="54932" started-at="2020-08-13T08:26:23Z" finished-at="2020-08-13T08:27:18Z">
+      <class name="testCases.AmazonBuyProduct">
+        <test-method status="PASS" signature="getDriverInstance(java.lang.String)[pri:0, instance:testCases.AmazonBuyProduct@210f0cc1]" name="getDriverInstance" is-config="true" duration-ms="20812" started-at="2020-08-13T08:26:23Z" finished-at="2020-08-13T08:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554 Android 11 8203]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method status="PASS" signature="testLoginInvalidConditionTest()[pri:0, instance:testCases.AmazonBuyProduct@210f0cc1]" name="testLoginInvalidConditionTest" duration-ms="32413" started-at="2020-08-13T08:26:44Z" description="Verify Amazon login for invalid credential" finished-at="2020-08-13T08:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidConditionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.AmazonBuyProduct@210f0cc1]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-08-13T08:27:18Z" finished-at="2020-08-13T08:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginInvalidConditionTest status=SUCCESS method=AmazonBuyProduct.testLoginInvalidConditionTest()[pri:0, instance:testCases.AmazonBuyProduct@210f0cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AmazonBuyProduct -->
+    </test> <!-- Place An order using emulator -->
+  </suite> <!-- Amazon End to End Suite -->
+</testng-results>

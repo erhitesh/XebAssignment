@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Xebia Assignment" parallel="tests">
+    <listeners>
+        <listener class-name="utils.AnnotationTransformer" />
+        <listener class-name="utils.TestListener" />
+    </listeners>
+
+    <test name="Sample Test">
+        <parameter name="deviceInfo" value="9C051FFBA002B7 Android 11 8203" />
+        <classes>
+            <class name="testCases.XebiaTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,11 @@
+************************** Steps for Project Execution ******************************
+1)Same for device name & version inside Xebia.xml under XmlFiles folder
+         See Below Example for Sample
+         <parameter name="deviceInfo" value="deviceName Android 10 8202" />
+3) select Xebia.xml inside XmlFiles folder & run as testng
+4) Test execution report will be generated under test-output
+     Test-Report-2020.11.23.10.10.09 AM.html
+5) Logs as also generated under LogsInfo folder
+
+TestData
+I am fetching data from excel & put that data into dataprovider
